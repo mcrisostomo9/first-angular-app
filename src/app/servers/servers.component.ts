@@ -24,7 +24,8 @@ export class ServersComponent implements OnInit {
     console.log('wattup doeeee')
   }
 
-  onUpdateServerName(event: any) {
-    this.serverName = (<HTMLInputElement>event.target).value
-  }
+  // can also just bind by using ngModel
+  // onUpdateServerName(event: any) {
+  //   this.serverName = (<HTMLInputElement>event.target).value
+  // }
 }

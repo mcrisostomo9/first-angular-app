@@ -13,8 +13,9 @@ export class AddUsernameComponent implements OnInit {
   ngOnInit() {
   }
 
-  onResetUserName(){
-    this.userName = '';
-  }
+  //could also just use username = '' on the [click] function
+  // onResetUserName(){
+  //   this.userName = '';
+  // }
 
 }

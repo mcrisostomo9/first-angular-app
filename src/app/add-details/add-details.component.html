@@ -3,9 +3,9 @@
   This is my details for this assignment
 </p>
 <div
-  *ngFor="let newParagraph of paragraphArray"
-  [ngStyle]="{ backgroundColor: newParagraph >= 5 ? 'blue' : 'white' }"
-  [ngClass]="{readable: newParagraph >=5}"
+  *ngFor="let newParagraph of paragraphArray; let i = index"
+  [ngStyle]="{ backgroundColor: i >= 4 ? 'blue' : 'white' }"
+  [ngClass]="{readable: i >=4}"
 >
   {{ newParagraph }}
 </div>

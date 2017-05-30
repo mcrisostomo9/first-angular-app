@@ -23,7 +23,8 @@ export class AddDetailsComponent implements OnInit {
   onAddDetails(){
     this.displayParagraph = !this.displayParagraph;
     this.counter++;
-    this.paragraphArray.push(this.counter)
+    // this.paragraphArray.push(this.counter)
+    this.paragraphArray.push(new Date())
   }
 
 }

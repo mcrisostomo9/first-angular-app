@@ -8,7 +8,8 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import { AddUsernameComponent } from './add-username/add-username.component'
+import { AddUsernameComponent } from './add-username/add-username.component';
+import { AddDetailsComponent } from './add-details/add-details.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AddUsernameComponent } from './add-username/add-username.component'
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    AddUsernameComponent
+    AddUsernameComponent,
+    AddDetailsComponent
   ],
   imports: [
     BrowserModule,

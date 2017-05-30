@@ -1,0 +1,12 @@
+<button class="btn btn-default" (click)="onAddDetails()">Add details</button>
+<p *ngIf="displayParagraph">
+  This is my details for this assignment
+</p>
+<div
+  *ngFor="let newParagraph of paragraphArray"
+  [ngStyle]="{ backgroundColor: newParagraph >= 5 ? 'blue' : 'white' }"
+  [ngClass]="{readable: newParagraph >=5}"
+>
+  {{ newParagraph }}
+</div>
+
